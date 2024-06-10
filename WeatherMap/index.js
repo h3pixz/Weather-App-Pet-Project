@@ -6,7 +6,7 @@ const weatherDetails = document.querySelector('.weather-details');
 /*тут я создал переменные, чтобы в дальнейшем взаимодействовать с ними*/
 
 search.addEventListener('click', () => {        /*создал какое либо действие при клике*/
-    const APIKey = 'YOUR API KEY' /*переменная с апи ключом*/
+    const APIKey = '52b01a5a107d948c18d19ee4ebc9b08a' /*переменная с апи ключом*/
     const city = document.querySelector('.search input').value; /*переменная city, берем значение */
 
     if(city == '')
