@@ -1,7 +1,6 @@
 # Weather-App-Pet-Project
 Weather App with API key
 
-Основные проблемы с кодом, которые нужно объяснить:
 
 ![image](https://github.com/h3pixz/Weather-App-Pet-Project/assets/92689666/2b5473dd-20b9-44d4-b3ac-a418b1c2d132)
 .then(response => response.json())
