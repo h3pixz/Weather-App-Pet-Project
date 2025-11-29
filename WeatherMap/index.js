@@ -3,14 +3,14 @@ const search = document.querySelector('.search');
 const weatherBox = document.querySelector('.weather-box');
 const weatherDetails = document.querySelector('.weather-details');
 
-/*тут я создал переменные, чтобы в дальнейшем взаимодействовать с ними*/
 
-search.addEventListener('click', () => {        /*создал какое либо действие при клике*/
-    const APIKey = '52b01a5a107d948c18d19ee4ebc9b08a' /*переменная с апи ключом*/
-    const city = document.querySelector('.search input').value; /*переменная city, берем значение */
+
+search.addEventListener('click', () => {        
+    const APIKey = '52b01a5a107d948c18d19ee4ebc9b08a' 
+    const city = document.querySelector('.search input').value;
 
     if(city == '')
-        return;      /*тут думаю все понятно*/
+        return;     
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`)
     .then(response => response.json())
@@ -64,4 +64,5 @@ search.addEventListener('click', () => {        /*создал какое либ
         });
 
 });
+
 
