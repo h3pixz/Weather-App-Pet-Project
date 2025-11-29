@@ -47,7 +47,7 @@ a:hover{
 .container{
     position: absolute;
     top: 50%;
-    left: 50%;                    /*ЦЕНТРИРОВАНИЕ ДИВА НА САЙТЕ*/
+    left: 50%;                   
     transform: translate(-50%, -50%);
     background: #fff;
     padding: 30px;
@@ -69,8 +69,8 @@ a:hover{
     color: #173e75;
     width: 80%;
     font-size: 24px;
-    text-transform: uppercase; /*делает текст капслоком */
-    font-weight: 500; /*толщина текста */
+    text-transform: uppercase; 
+    font-weight: 500; 
     outline:none;
     border: none;
 }
@@ -185,3 +185,4 @@ body{
         opacity: 1;
     }
 }
+
